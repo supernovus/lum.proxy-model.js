@@ -46,6 +46,8 @@ class User extends lib.Model
 
 const u1 = new User(d1);
 
+// TODO: write actual tests
+
 module.exports =
 {
   lib, User, d1, u1,
