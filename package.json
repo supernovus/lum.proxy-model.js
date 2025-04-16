@@ -9,8 +9,8 @@
   },
   "dependencies": 
   {
-    "@lumjs/core": "^1.38.1"
-    "@lumjs/mongodb-utils": "^1.0.0"
+    "@lumjs/core": "^1.38.1",
+    "@lumjs/mongo-utils": "^1.0.0"
   },
   "devDependencies":
   {
