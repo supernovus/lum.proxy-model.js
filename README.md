@@ -5,12 +5,17 @@ handle conversion of data to and from its serialized format,
 as well as offering observable-like events that can watch
 for changes to the data.
 
-Comes with a couple pre-defined type converters for data
-serialized from MongoDB into its Extended JSON (v2) format.
+## NOTE: Major overhaul (`v2.0`) planned!
 
-It's not perfect by any stretch, nor is it complete, and it's 
-entirely undocumented at the moment with no test suite. 
-All things I plan to fix in the next release, I promise!
+The current version has some convoluted cruft in it and needs an overhaul!
+Version 2.0 of this will at the very least:
+
+- Split the MongoDB Extended JSON converters into a standalone package.
+- Finish the new model (`lib/newmodel`), and make it the new default.
+- Turn the original model into a wrapper around the new model.
+  - Maybe split it into its own standalone package as well.
+- Add better documentation.
+- Add tests!
 
 ## Official URLs
 
@@ -26,3 +31,9 @@ Timothy Totten <2010@totten.ca>
 ## License
 
 [MIT](https://spdx.org/licenses/MIT.html)
+
+---
+
+[@lumjs/mongo-utils]: https://github.com/supernovus/lum.mongo-utils.js
+[@lumjs/simple-data]: https://github.com/supernovus/lum.simple-data.js
+
